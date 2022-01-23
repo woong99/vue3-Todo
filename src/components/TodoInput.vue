@@ -4,7 +4,7 @@
 			type="text"
 			class="form-control"
 			v-model="newTodoItem"
-			placeholder="Type what you have to do"/>
+			placeholder="Type what you have to do" />
 		<button @click="addTodo()" class="btn btn-info">+</button>
 	</div>
 </template>

@@ -3,7 +3,9 @@
 		<ul>
 			<li v-for="(item, index) in propsdata" :key="item">
 				<i class="fa fa-check"></i> {{ item }}
-				<span class="removeBtn" @click="removeTodo(item, index)"><i class="fa fa-trash-o"></i></span>
+				<span class="removeBtn" @click="removeTodo(item, index)">
+					<i class="fa fa-trash-o"></i>
+				</span>
 			</li>
 		</ul>
 	</div>
