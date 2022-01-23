@@ -14,6 +14,7 @@ export default {
 		return {};
 	},
 	props: ['propsdata'],
+
 	methods: {
 		removeTodo(item, index) {
 			this.$emit('removeTodo', item, index);

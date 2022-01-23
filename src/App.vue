@@ -33,7 +33,6 @@ export default {
 	methods: {
 		addTodo(todoItem) {
 			localStorage.setItem(todoItem, todoItem);
-			console.log(localStorage);
 			this.todoItems.push(todoItem);
 		},
 		clearAll() {
